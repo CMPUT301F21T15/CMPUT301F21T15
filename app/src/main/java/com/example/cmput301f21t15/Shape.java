@@ -7,8 +7,11 @@ public abstract class Shape {
     
     private String color = "$PUT_YOUR_CHOICE_OF_COLOR";
 
-    public Shape(Integer x, Integer y) {
+    private String color;
+
+    public Shape(Integer x, Integer y, String color) {
         this.x = x;
         this.y = y;
+        this.color = color;
     }
 }
